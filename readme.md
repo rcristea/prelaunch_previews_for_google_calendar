@@ -4,15 +4,15 @@ Prelaunch Previes for Google Calendar is an app to add the contents of:
 [PreLaunch-Previews](https://everydayastronaut.com/prelaunch-previews/) to your google calendar.<br>
 ****
 **Setup**
-1. Go to [Calendar API quickstart](https://developers.google.com/calendar/quickstart/python) and click 'Enable the Google Calendar API'<br>
-2. Click 'DOWNLOAD CLIENT CONFIGURATION'
-3. Add to the same directory as this project
-4. Run start.py; this will open your browser and ask you to log into your google account
-5. The app isn't verified so show Advanced and click Go to start(unsafe)... Don't worry, its safe. I don't even know
+1. Set up MongoDB (lower)
+2. Go to [Calendar API quickstart](https://developers.google.com/calendar/quickstart/python) and click 'Enable the Google Calendar API'<br>
+3. Click 'DOWNLOAD CLIENT CONFIGURATION'
+4. Add to the same directory as this project
+5. Run start.py; this will open your browser and ask you to log into your google account
+6. The app isn't verified so show Advanced and click 'Go to start(unsafe)'... Don't worry, its safe. I don't even know
 how to write a virus
-6. Click allow to grant permission for this application to modify your calendar (will never delete anything)<br>
-[subject to change since a feature to remove the events may be added in]
-7. Click allow again to confirm changes. This will open a page that should say "The authentication flow has completed. 
+7. Click allow to grant permission for this application to modify your calendar (will never delete your own events)<br>
+8. Click allow again to confirm changes. This will open a page that should say "The authentication flow has completed. 
 You may close this window." This is to generate the token.pickle file (used for authentication)
 ****
 **MongoDB**<br>
