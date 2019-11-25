@@ -3,9 +3,6 @@ import requests
 import re
 from lxml import html
 
-SCOPES = ['https://www.googleapis.com/auth/calendar']
-CREDENTIALS_FILE = 'credentials.json'
-
 
 class LaunchEvents:
     missions = []
